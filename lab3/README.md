@@ -2,11 +2,11 @@
 ## Breaking the *(easy)* **shift cipher**
 ### *A paean to the great Roman Empire*
 
-<center>
+<div align="center">
 
 ![roman emblem](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vexilloid_of_the_Roman_Empire.svg/320px-Vexilloid_of_the_Roman_Empire.svg.png?1511946932553)
 
-</center>
+</div>
 
 ### Keywords
 `shift cipher`, `substitution cipher`, `frequency analysis`, `dictionary attack`
@@ -47,13 +47,13 @@ Looks that we hit the spot: perfectly readable English about the glorious Roman 
 [True Dictionary Attack](https://www.wikiwand.com/en/Dictionary_attack)
 The premise of this method is to have a dictionary of most common used words of the language, as you try every possible shift, you check if the words from the dictionary are found in the message you are trying to decrypt.
 
-Some might say that this method is more **brute** than the other one.
+Some might say that this method is more **brute** than the other one. <br>
 (I tried to make a pun using **Brut**us, a dude from the Roman Empire. I'm not sorry.)
-<center>
+<div align="center">
 
 ![brutus](https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTE4MDAzNDEwNDY1NTU1OTgy/marcus-junius-brutus-9229883-1-402.jpg)
 
-</center>
+</div>
 
 The advantage of this method is that you could have multiple dictionaries (for different languages) thus giving you the flexibility of not knowing the language the message you are trying to crack was written in.
 
@@ -71,3 +71,9 @@ Decrypt these:
 
 1. WKHSWEC: WI XKWO SC WKHSWEC NOMSWEC WOBSNSEC, MYWWKXNOB YP DRO KBWSOC YP DRO XYBDR, QOXOBKV YP DRO POVSH VOQSYXC, VYIKV COBFKXD DY DRO DBEO OWZOBYB, WKBMEC KEBOVSEC. PKDROB DY K WEBNOBON CYX, RECLKXN DY K WEBNOBON GSPO. KXN S GSVV RKFO WI FOXQOKXMO, SX DRSC VSPO YB DRO XOHD.
 
+### Grading policy
+**9** - implement the `frequency analysis` type of breaking the code and decipher the messages from the **Task** subsection <br>
+> Example <br>
+> the key used is: `right shift 11`, the message is: "blablabla" <br>
+
+**10** - implement so that you could decipher messages from languages different than English *(Romanian for example)*<br>
