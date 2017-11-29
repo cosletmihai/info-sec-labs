@@ -27,8 +27,8 @@ Your task will be to crack the shift cipher, plain and simple.
 There are two approaches you could use to "break the code" (so to speak):
 
 #### Frequency Analysis
-We live in a world of patterns, and a smart cracker (or hacker) knows that he has to look for them. Even if all letters are equal, *some letters are more equal than others*, thus some of them are used more.
-Language analysts have identified the so called **letter distribution tables** which identify the frequency for a letter to be found in a text. [Here](https://www.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html) you can find a small experiment of letter distribution in the `English` language, and [here](https://www.wikiwand.com/en/Letter_frequency) you can read some more about letter frequency.
+We live in a world of patterns, and a smart cracker (or hacker) knows that he has to look for them. Even if all letters are equal, *some letters are more equal than others*, thus some of them are used more often.
+Language analysts have identified the so called **letter distribution tables** which established the frequency for a letter to be found in a text. [Here](https://www.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html) you can find a small experiment of letter distribution in the `English` language, and [here](https://www.wikiwand.com/en/Letter_frequency) you can read some more about letter frequency.
 
 You can use this knowledge to try and guess the `shift rule`, by analyzing the frequency of letters in your encrypted text. 
 
@@ -66,7 +66,7 @@ AB ZNRL MAX WXTWEBGX YHK MABL ETUHKTMHKR BL MAX MPXGMBXMA HY WXVXFUXK B PHNEW EB
 > You have to decode this ^
 
 
-### Tasks
+### Messages
 Decrypt these:
 
 1. WKHSWEC: WI XKWO SC WKHSWEC NOMSWEC WOBSNSEC, MYWWKXNOB YP DRO KBWSOC YP DRO XYBDR, QOXOBKV YP DRO POVSH VOQSYXC, VYIKV COBFKXD DY DRO DBEO OWZOBYB, WKBMEC KEBOVSEC. PKDROB DY K WEBNOBON CYX, RECLKXN DY K WEBNOBON GSPO. KXN S GSVV RKFO WI FOXQOKXMO, SX DRSC VSPO YB DRO XOHD.
